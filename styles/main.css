@@ -391,6 +391,7 @@ nav ul li a:hover {
     margin: 0 240px 216px;
     text-align: center;
     background-color: #FFF4E7;
+    border-radius: 8px;
 }
 
 .footer p {
