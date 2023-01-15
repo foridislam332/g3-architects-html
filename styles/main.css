@@ -195,6 +195,13 @@ nav ul li a:hover {
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, .06);
+    border: 1px solid #fff;
+    transition: .3s all ease-in-out;
+}
+
+.features_details_item:hover {
+    border: 1px solid #FF900E;
+    box-shadow: 0 0 30px 0 #ff8f0eb4;
 }
 
 .features_details_item h2 {
@@ -290,6 +297,12 @@ nav ul li a:hover {
 
 .sponspors_logo img {
     filter: grayscale(100%);
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+}
+
+.sponspors_logo img:hover {
+    filter: grayscale(0);
 }
 
 /* footer styles */

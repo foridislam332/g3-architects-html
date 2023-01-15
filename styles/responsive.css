@@ -122,7 +122,7 @@
 }
 
 /* medium device responsive */
-@media screen and (min-width: 577px) and (max-width: 992px) {
+@media screen and (min-width: 576px) and (max-width: 992px) {
 
     /* header responsive */
     .header {
@@ -194,6 +194,100 @@
     /* footer responsive */
     .footer {
         margin: 0 80px 50px;
+        text-align: center;
+        background-color: #FFF4E7;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1400px) {
+
+    main {
+        margin: 0 80px;
+    }
+
+    /* header responsive */
+    .header {
+        padding: 20px 80px;
+        background-color: rgba(255, 144, 14, 0.1);
+    }
+
+    nav .logo {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    nav ul {
+        gap: 20px;
+    }
+
+    /* our features responsive */
+    .our_features {
+        gap: 40px;
+        margin: 100px 0;
+    }
+
+    .our_feature_images img {
+        width: 300px;
+    }
+
+    .our_feature_content p {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 34px 0 42px;
+    }
+
+    /* features details responsive */
+    .features_details {
+        align-items: center;
+        gap: 40px;
+        margin: 90px 0;
+    }
+
+    .features_details_image {
+        text-align: center;
+    }
+
+    .features_details_bottom {
+        padding: 30px 50px;
+        margin: -80px 0 0 -180px;
+    }
+
+    .features_details_bottom h1 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    /* facts responsive */
+    .facts {
+        margin: 0;
+    }
+
+    .facts_content {
+        margin: 50px 0;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px;
+    }
+
+
+    /* sponspors responsive */
+    .sponspors {
+        margin: 90px 100px;
+    }
+
+    .sponspors_logo {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 80px;
+    }
+
+    .sponspors_logo img {
+        text-align: center;
+        width: 100%;
+    }
+
+    /* footer responsive */
+    .footer {
+        margin: 0 100px 50px;
         text-align: center;
         background-color: #FFF4E7;
     }
